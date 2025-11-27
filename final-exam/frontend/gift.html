@@ -8,6 +8,49 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
+  <style>
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        padding: 5em;
+        padding-top: 3em;
+        gap: 3em;
+    }
+    .cards .card .card-body  .price {
+         font-size: 20px;
+        color: #77315b;
+        font-weight: bolder;
+        padding-top: 1rem;
+
+    }
+    .cards .card .card-body  .price span{
+        font-size: 15px;
+        color: #4a4949;
+        font-weight: bolder;
+        text-decoration: line-through;
+    }
+    .cards .card .card-body a{
+        position: relative;
+    left: 60px;
+    color: #1f011db3;
+    background: #FFD0EC;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 600;
+    border:none;
+    outline: none;
+    transition:  0.5s ease;
+    
+    }
+    .cards .card .card-body a:hover{
+        transform: scale(1.1);
+
+    }
+     
+  </style>
   <body>
     <!--header-->
    <section class="header">
@@ -17,62 +60,94 @@
           <ul>
             <li class="list"> <a href="index.html" id="home">Home</a></li>
             <li class="list"><a href="gift.html">Gift</a></li>
-            <li class="list"> <a href="login.html">Login</a></li>
-            <li class="list"><a href="about_us.html">about_us</a></li>
+            <li class="list"> <a href="login.html">Contact</a></li>
+            <li class="list"><a href="about_us.html">about</a></li>
             <li class="list"><a href="#" class="fa fa-shopping-cart"></a></li>
           </ul>
         </nav>
     </section>
 <!--end header-->
 <!--body-->
+<section class="cards">
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/بوكس_العيد.jpg" class="card-img-top" alt="eid">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Eid Mubarak </h5>
+    <p class="card-text">- A beautifully designed Eid greeting card<br>
+                        - Premium chocolates<br>
+                        - Perfume or incense<br>
+                        - Fresh or dried flowers
+    </p>
+    <p class="price">350.75SAR <span>250.75SAR</span></p>
+
+    <a href="#" class="btn btn-primary">Add to bag</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/بوكس_رجالي.jpg" class="card-img-top" alt="man">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Men Gift Box </h5>
+    <p class="card-text">- A luxurious men’s perfume with distinctive notes<br>
+                         - A high-quality leather wallet<br>
+                         - A stylish watch<br>
+                         - Incense or a car freshener
+                         </p>
+    <p class="price">450.75SAR <span>300.75SAR</span></p>
+    <a href="#" class="btn btn-primary">Add to bag</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/بوكس_زواج سعيد.jpg" class="card-img-top" alt="love">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Anniversary/Love Gift Box</h5>
+    <p class="card-text">- A love card <br>
+                         - A luxurious perfume<br> 
+                         - Fresh or dried flowers arranged beautifully<br>
+                         - Premium chocolates<br>
+                         </p>
+    <p class="price">550.75SAR <span>460.75SAR</span></p>
+    <a href="#" class="btn btn-primary">Add to bag</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/بوكس-الشتاء.jpg" class="card-img-top" alt="cold">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Winter Gift Box</h5>
+    <p class="card-text">- Elegant winter mug<br>
+                         - Hot chocolate mix or latte<br>
+                         - Cozy premium socks<br>
+                         - Scented candle with winter notes
+
+</p>
+<p class="price">300.75SAR <span>200.75SAR</span></p>
+    <a href="#" class="btn btn-primary">Add to bag</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/بوكس_شوكلاه.jpg" class="card-img-top" alt="Chocolate">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Chocolate Gift Box</h5>
+    <p class="card-text">- Assorted imported chocolates<br>
+                         - Premium truffles or pralines<br>
+                         - Hot chocolate drink<br>
+                         - Chocolate-covered nuts</p>
+<p class="price">150.75SAR <span>75.75SAR</span></p>
+    <a href="#" class="btn btn-primary">Add to bag</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
+  <img src="img/بوكس_مولود.jpg" class="card-img-top" alt="baby">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <h5 class="card-title">Newborn Gift Box</h5>
+    <p class="card-text">- Soft baby blanket<br>
+                         - Cute cotton clothes<br>
+                         - Safe plush toy or teether<br>
+                         - Greeting card for the newborn</p>
+    <p class="price">330.75SAR <span>270.75SAR</span></p>
+    <a href="#" class="btn btn-primary">Add to bag</a>
   </div>
 </div>
+</section>
 <!--footer-->
     <section class="footer" id="footer">
 
