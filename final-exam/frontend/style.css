@@ -92,7 +92,7 @@
 
 .home .content span{
     font-size: 40px;
-    letter-spacing: 20px;
+   
     margin-bottom: 30px;
     padding-left: 20px;
     color: #ffffff;
@@ -142,7 +142,7 @@
 
   }
 
-  .Our-store >.declaration{
+  .Our-store .declaration{
     font-family: cursive;
     margin-top: 20px;
     padding-left: 50px;
@@ -152,9 +152,9 @@
     font-weight: 900;
     color: rgb(1, 44, 80);
   }
-  .Our-store >.declaration p{
+  .Our-store .declaration p{
     font-size: 25px;
-    letter-spacing: 8px;
+   
     margin-bottom: 30px;
     color: #ffffff;
     font-family: serif;
@@ -168,17 +168,17 @@
 }
 .footer h3{
     color: #ffffff;
-    height: 50px;
+    height: 40px;
     padding-top: 20px;
 }
 .footer  p{
     color: #ffffff;
-   padding-top: 10px;
+    
+    margin: 15px;
 }
 .footer a{
     text-decoration: none;
     color: #E49BFF;
-    
     transition: 0.7s ease;
 }
 .footer a:hover{
