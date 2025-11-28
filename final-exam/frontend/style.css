@@ -166,6 +166,25 @@
     background: #621971;
     text-align: center;
 }
+.footer h3{
+    color: #ffffff;
+    height: 50px;
+    padding-top: 20px;
+}
+.footer  p{
+    color: #ffffff;
+   padding-top: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: #E49BFF;
+    
+    transition: 0.7s ease;
+}
+.footer a:hover{
+    padding-bottom: 0.5em;
+    color:  #774888;
+}
 .footer .create {
     font-family: cursive sans-serif;
     text-align: center;
