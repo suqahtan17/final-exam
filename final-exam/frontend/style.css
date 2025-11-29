@@ -31,7 +31,7 @@
     padding-left: 0px;
 }
 .header-bottom{
-    background-color: #621971;
+    background-color: #93659c;
     border-radius: 0px 0px 8px 8px;
     display: flex;
     flex-direction: row wrap;
@@ -76,10 +76,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background: url(imag/im-home/back.img.jpeg);
+    background: url(img/background3.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
+
 .home .content {    
     margin-top: 5px;
     border-style: solid ; 
@@ -163,7 +165,7 @@
 
 /*footer*/
 .footer {
-    background: #621971;
+    background: #93659c;
     text-align: center;
 }
 .footer h3{
@@ -178,7 +180,7 @@
 }
 .footer a{
     text-decoration: none;
-    color: #E49BFF;
+    color: #1e1421;
     transition: 0.7s ease;
 }
 .footer a:hover{
